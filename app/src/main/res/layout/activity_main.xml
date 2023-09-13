@@ -44,20 +44,12 @@
             android:textStyle="bold" />
 
         <EditText
-            android:id="@+id/edAlcool"
+            android:id="@+id/edGasolina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="30dp"
             android:ems="10"
             android:hint="Preço da gasolina"
-            android:inputType="numberDecimal" />
-
-        <EditText
-            android:id="@+id/edGasolina"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="alcool"
             android:inputType="numberDecimal" />
 
         <Switch
@@ -66,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginHorizontal="30dp"
-            android:text="75%" />
+            android:text="70%" />
 
         <Button
             android:id="@+id/btCalcular"
@@ -76,6 +68,15 @@
             android:layout_marginVertical="20dp"
             android:backgroundTint="#CB584C"
             android:text="Calcular" />
+
+        <TextView
+            android:id="@+id/tvAlcool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="30sp"
+            android:translationY="40sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
