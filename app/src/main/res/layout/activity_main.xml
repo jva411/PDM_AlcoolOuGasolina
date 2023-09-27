@@ -43,22 +43,31 @@
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/edGasolina"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="30dp"
-            android:ems="10"
-            android:hint="Preço da gasolina"
-            android:inputType="numberDecimal" />
+            android:layout_height="58dp"
+            android:orientation="horizontal">
 
-        <Switch
-            android:id="@+id/swPercentual"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:layout_marginHorizontal="30dp"
-            android:text="70%" />
+            <EditText
+                android:id="@+id/edGasolina"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:ems="10"
+                android:hint="Preço da gasolina"
+                android:inputType="numberDecimal"
+                android:translationY="2dp" />
+
+            <Switch
+                android:id="@+id/swPercentual"
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginHorizontal="30dp"
+                android:text="70%"
+                android:translationX="-44dp"
+                android:translationY="12dp" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/btCalcular"
@@ -67,7 +76,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="20dp"
             android:backgroundTint="#CB584C"
-            android:text="Calcular" />
+            android:text="Calcular"
+            android:translationY="-12dp" />
 
         <TextView
             android:id="@+id/tvAlcool"
@@ -76,7 +86,7 @@
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textSize="30sp"
-            android:translationY="40sp" />
+            android:translationY="32dp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
