@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">AlcoolCalculator</string>
+    <string name="app_title">Gasoline Or Alcohol?</string>
+    <string name="input_hint_gasolina">Gasoline Price</string>
+    <string name="button_calcular">Estimate</string>
+</resources>

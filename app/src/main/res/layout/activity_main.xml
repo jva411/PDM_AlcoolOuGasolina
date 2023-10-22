@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp"
-                android:text="Gasolina ou Álcool?"
+                android:text="@string/app_title"
                 android:textAlignment="center"
                 android:textColor="@color/red"
                 android:textSize="30sp"
@@ -64,7 +64,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="30dp"
                 android:ems="10"
-                android:hint="Preço da gasolina"
+                android:hint="@string/input_hint_gasolina"
                 android:inputType="numberDecimal"
                 android:textColor="@color/text_color"
                 android:translationY="2dp" />
@@ -88,7 +88,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="20dp"
             android:backgroundTint="@color/purple_200"
-            android:text="Calcular"
+            android:text="@string/button_calcular"
             android:translationY="-12dp" />
 
         <TextView
