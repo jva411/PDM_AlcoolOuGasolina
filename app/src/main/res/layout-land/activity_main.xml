@@ -11,7 +11,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/white"
+        android:background="@color/background_color"
+        android:backgroundTint="@color/background_color"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="7dp">
 
@@ -52,6 +53,7 @@
             android:ems="10"
             android:hint="@string/input_hint_gasolina"
             android:inputType="numberDecimal"
+            android:textColor="@color/text_color"
             android:translationY="2dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.427"
@@ -64,6 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:text="70%"
+            android:textColor="@color/text_color"
             app:layout_constraintBottom_toBottomOf="@+id/edGasolina"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.25"
@@ -91,6 +94,7 @@
             android:layout_marginTop="32dp"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/text_color"
             android:textSize="48sp"
             app:layout_constraintTop_toBottomOf="@+id/edGasolina"
             tools:layout_editor_absoluteX="0dp" />
